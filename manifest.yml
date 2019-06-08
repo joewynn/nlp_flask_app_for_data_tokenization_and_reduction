@@ -1,0 +1,11 @@
+---
+applications:
+  - name: pii-identifier
+    memory: 1G
+    disk_quota: 1G
+    route: pii-identifier
+    buildpacks:
+      - python_buildpack
+    commands:
+      - python -m spacy download en_core_web_sm
+      - python -m spacy download en_core_web_lg
