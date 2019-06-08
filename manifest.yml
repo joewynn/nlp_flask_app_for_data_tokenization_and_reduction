@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: tokenizatio-flask-app
+  - name: censor-ap
     memory: 1G
     disk_quota: 1G
     route: tokenize
