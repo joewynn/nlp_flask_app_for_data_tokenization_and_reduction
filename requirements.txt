@@ -1,4 +1,3 @@
---index-url  https://artifactory.platform.manulife.io/artifactory/api/pypi/advanced-analytics-pindrop-pypi/simple
 certifi==2019.3.9
 cryptography==2.6.1
 entrypoints==0.3
@@ -29,6 +28,5 @@ urllib3==1.24.3
 Werkzeug==0.15.2
 wrapt==1.10.11
 spacy==2.1.0
-# --index-url https://artifactory.platform.manulife.io/artifactory/api/pypi/group-gfast/simple
-#https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
-#https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz#egg=en_core_web_lg
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
+https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz#egg=en_core_web_lg

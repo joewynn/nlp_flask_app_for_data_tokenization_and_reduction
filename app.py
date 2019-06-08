@@ -11,7 +11,7 @@ time_string = time.strftime("%Y%m%d-%H%M%S")
 
 # NLP
 import spacy
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 
 entity_selection = {
     "names": "PERSON",
