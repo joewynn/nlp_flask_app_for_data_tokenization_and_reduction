@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: pii-identifier
+  - name: tokenizatio-flask-app
     memory: 1G
     disk_quota: 1G
-    route: pii-identifier
+    route: tokenize
     buildpacks:
       - python_buildpack
     commands:
