@@ -44,11 +44,23 @@ Tokenization in this context refers to anonymization of sensitive information by
 
 ## Setting up
 
+### environment
+
 In order to run in the local environment, first we need to install the required dependencies
 
 1. Create an environment: `conda create -n <env_name> python=3.6.7`
 2. Change to environment: `conda activate <env_name>`
 3. Install dependencies: `pip install -r requirements.txt`
+
+
+### running
+
+After installing dependencies, on the command line run
+
+- `python app.py`
+
+Then point your browser to the address to `http://127.0.0.1:5000/` to play with the app.
+
 
 ## Deploying on a `Pivotal Cloud Foundry`
 
