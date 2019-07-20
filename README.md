@@ -48,10 +48,17 @@ Tokenization in this context refers to anonymization of sensitive information by
 
 In order to run in the local environment, first we need to install the required dependencies
 
+#### Using `pip` and `conda`
 1. Create an environment: `conda create -n <env_name> python=3.6.7`
 2. Change to environment: `conda activate <env_name>`
 3. Install dependencies: `pip install -r requirements.txt`
 
+### Using `conda`
+
+Simply use:
+
+- `conda env create -f environment.yml`
+- `conda activate my_env_name`
 
 ### running
 
